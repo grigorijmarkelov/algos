@@ -21,5 +21,10 @@ int pivoting(int first_int, int second_int)
     return (first_int + second_int)/2;
 }
 
-
+void quicksort(int arr[], int first, int last)
+{
+    int pivot_point;
+    pivot_point = pivoting(first, last);
+    # Stub
+}
 #endif
